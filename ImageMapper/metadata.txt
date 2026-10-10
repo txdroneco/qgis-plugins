@@ -1,0 +1,20 @@
+[general]
+name=ImageMapper
+qgisMinimumVersion=4.0
+qgisMaximumVersion=4.99
+description=Plot DJI drone image locations on a map with EXIF/XMP metadata extraction, flight path visualization, and altitude/RTK colorization.
+version=1.0.0
+author=TXDroneCo
+email=info@txdroneco.com
+about=ImageMapper reads EXIF and DJI XMP metadata from drone imagery, plots photo locations as colored markers, draws flight path lines, and provides thumbnail previews on click. Supports colorization by altitude gradient or RTK fix status.
+tracker=https://github.com/txdroneco/imagemapper/issues
+repository=https://github.com/txdroneco/imagemapper
+tags=drone,dji,exif,xmp,geotagged,photos,rtk,mapping,uav
+homepage=https://github.com/txdroneco/imagemapper
+category=Raster
+icon=icon.png
+experimental=False
+deprecated=False
+hasProcessingProvider=no
+changelog=
+    1.0.0 - Initial release
